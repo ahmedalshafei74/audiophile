@@ -3,7 +3,7 @@ import person from "./assets/person.png"
 export default function Gear() {
   return (
     <div className="flex justify-center items-center bg-white w-full">
-        <section className="container flex py-[200px] px-[165px]">
+        <section className="container flex py-[200px]">
             <div className="w-1/2 py-[147px] ">
                 <div className="flex flex-col gap-8">
                     <h1 className=" w-[445px] font-bold text-[40px] leading-[44px] tracking-[1.43px] uppercase ">Bringing you the <span className="text-[#D87D4A] ">best</span> audio gear</h1>

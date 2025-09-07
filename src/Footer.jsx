@@ -6,7 +6,7 @@ let linkStyle = 'font-bold text-[13px] leading-[25px] tracking-[2px] uppercase';
 export default function Footer() {
   return (
     <div className="bg-[#0E0E0E] w-full flex justify-center">
-      <footer className="container flex flex-col px-[165px] pt-[75px] pb-12 gap-9">
+      <footer className="container flex flex-col pt-[75px] pb-12 gap-9">
         <header className="flex justify-between">
           <img src={logo} />
           <nav className="flex gap-8 text-white">

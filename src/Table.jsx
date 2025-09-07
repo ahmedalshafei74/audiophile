@@ -3,7 +3,7 @@ import earpods from "./assets/ear.png";
 export default function Table() {
   return (
     <div className="bg-white w-full flex justify-center ">
-      <section className="container flex flex-col gap-12 pt-12 px-[165px] items-center">
+      <section className="container flex flex-col gap-12 pt-12  items-center">
         <div
           className=" w-[1110px] h-[320px] px-[95px] py-[100px] rounded-2xl"
           style={{ backgroundImage: `url(${table})` }}

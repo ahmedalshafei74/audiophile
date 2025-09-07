@@ -5,7 +5,7 @@ import speaker from "./assets/image-removebg-preview(38).png"
 
 export default function Speakers() {
   return (
-    <div className="bg-white w-full flex justify-center pt-[127px] px-[165px]">
+    <div className="bg-white w-full flex justify-center pt-[127px]">
       <section className="container flex flex-col gap-40 bg-white items-center">
         <div className="flex justify-between gap-8 ">
           <div className="w-[350px] h-[204px] rounded-lg bg-gray-100 flex flex-col items-center ">
