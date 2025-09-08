@@ -6,10 +6,10 @@ let linkStyle = 'font-bold text-[13px] leading-[25px] tracking-[2px] uppercase';
 export default function Footer() {
   return (
     <div className="bg-[#0E0E0E] w-full flex justify-center">
-      <footer className="container flex flex-col pt-[75px] pb-12 gap-9">
+      <footer className="container flex flex-col pt-[75px] pb-12 gap-9 mx-auto max-w-[1110px] px-4 md:px-6 lg:px-8">
         <header className="flex justify-between">
           <img src={logo} />
-          <nav className="flex gap-8 text-white">
+          <nav className="hidden lg:flex gap-8 text-white">
             <a className={linkStyle} href="#">
               HOME
             </a>
@@ -25,8 +25,8 @@ export default function Footer() {
           </nav>
         </header>
 
-        <div className="flex ">
-            <div className="w-1/2">
+        <div className="flex flex-col md:flex-row gap-10 ">
+            <div className="">
                 <div className="flex flex-col gap-14">
                     <p className="w-[540px] text-white/50 font-normal text-[15px] leading-[25px]">
                         Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
@@ -34,11 +34,11 @@ export default function Footer() {
                     <p className="w-[540px] text-white/50 font-bold text-[15px] leading-[25px]">Copyright 2021. All Rights Reserved</p>
                 </div>
             </div>
-            <div className="w-1/2 pl-[466px] pt-[105px] ">
+            <div className="w-1/2 flex justify-end items-end ">
                 <div className="flex gap-4">
-                    <IoLogoFacebook className="w-[24px] h-[24px] text-white cursor-pointer" />
-                    <IoLogoTwitter className="w-[24px] h-[24px] text-white cursor-pointer" />
-                    <IoLogoInstagram className="w-[24px] h-[24px] text-white cursor-pointer" />
+                    <IoLogoFacebook className="w-[30px] h-[30px] text-white cursor-pointer" />
+                    <IoLogoTwitter className="w-[30px] h-[30px] text-white cursor-pointer" />
+                    <IoLogoInstagram className="w-[30px] h-[30px] text-white cursor-pointer" />
 
 
                 </div>
